@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/GaganBansal/static/css/main.07405154.css",
-    "main.js": "/GaganBansal/static/js/main.a79e5139.js",
+    "main.css": "/GaganBansal/static/css/main.d408c1db.css",
+    "main.js": "/GaganBansal/static/js/main.dc87181c.js",
     "static/js/592.add7495d.chunk.js": "/GaganBansal/static/js/592.add7495d.chunk.js",
     "static/media/Fav.png": "/GaganBansal/static/media/Fav.5ae88b1be8f17914c2ba.png",
     "static/media/Google.jpeg": "/GaganBansal/static/media/Google.2eb3b3c3a56fae63b7cb.jpeg",
     "static/media/gagan.jpeg": "/GaganBansal/static/media/gagan.904e721617790d2a448f.jpeg",
     "static/media/Gagan1.pdf": "/GaganBansal/static/media/Gagan1.d98107c69c38ee3061c0.pdf",
     "index.html": "/GaganBansal/index.html",
-    "main.07405154.css.map": "/GaganBansal/static/css/main.07405154.css.map",
-    "main.a79e5139.js.map": "/GaganBansal/static/js/main.a79e5139.js.map",
+    "main.d408c1db.css.map": "/GaganBansal/static/css/main.d408c1db.css.map",
+    "main.dc87181c.js.map": "/GaganBansal/static/js/main.dc87181c.js.map",
     "592.add7495d.chunk.js.map": "/GaganBansal/static/js/592.add7495d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07405154.css",
-    "static/js/main.a79e5139.js"
+    "static/css/main.d408c1db.css",
+    "static/js/main.dc87181c.js"
   ]
 }
