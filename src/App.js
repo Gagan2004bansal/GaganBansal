@@ -52,6 +52,7 @@ function App() {
         {page ? <Projects /> : <Skills />}
         <About />
         <div className='text-center text-white'>
+          <p className='opacity-50'>Developed By Gagan Bansal</p>
           ⓒ 2024 All Right Reserved.
         </div>
       </div >

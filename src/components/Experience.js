@@ -9,7 +9,8 @@ const Experience = () => {
                         <div>
                             <p className='font-bold'>ACM CUIET, <span className='text-red-500 font-normal'>Sep 23 - present</span></p>
                             <p className='text-slate-300'>Web Team</p>
-                            <p className='text-slate-300'>Building Website for ACM Club</p>
+                            <p className='text-slate-300'> # I contribute to the success of the technical events hosted by ACM CUIET</p>
+                            <p className='text-slate-300'> # Building Website for ACM Club</p>
                         </div>
                     </div>
                 </div>
