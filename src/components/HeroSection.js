@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { SiLeetcode } from "react-icons/si";
 import myImage from '../images/gagan.jpeg';
 
 const HeroSection = () => {
@@ -18,6 +19,9 @@ const HeroSection = () => {
     }
 
 
+    const handleLeetcode = () => {
+        window.location.href = "https://leetcode.com/u/Gagan_Bansal/";
+    }
 
 
 
@@ -39,6 +43,9 @@ const HeroSection = () => {
                     </div>
                     <div>
                         <IoMdMail onClick={handleMail} />
+                    </div>
+                    <div onClick={handleLeetcode} className='flex flex-row items-center justify-center text-yellow-300 '>
+                        <SiLeetcode /> Leetcode
                     </div>
                 </div>
                 <div className='font-semibold font-poppins md:text-[20px] text-white'>B.E CS @ Chitkara University</div>

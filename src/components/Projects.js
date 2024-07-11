@@ -22,6 +22,16 @@ const Projects = () => {
                         <img className='w-40 h-40 ' src='https://png.pngtree.com/png-clipart/20200701/original/pngtree-e-commerce-world-on-phone-png-image_5342845.jpg' alt='error' />
                     </div>
                 </div>
+                <div className='flex flex-row bg-slate-800 text-slate-300 p-3 gap-2 rounded-md border-4 border-slate-300 shadow-xl'>
+                    <div className='flex flex-col justify-center items-center'>
+                        <p className='font-bold'>Real Estate</p>
+                        <p className='text-red-400'>Frontend</p>
+                        <a href='https://gagan2004bansal.github.io/Bansal-Real-Estate/'>Demo</a>
+                    </div>
+                    <div>
+                        <img className='w-40 h-40' src='https://img.freepik.com/premium-photo/house-loan-concept-isolated-white-background_53876-33025.jpg' alt='error' />
+                    </div>
+                </div>
             </div>
         </div>
     )

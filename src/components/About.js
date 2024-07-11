@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div>
             <div className='flex flex-col sm:flex-col justify-start max-w-550 px-7 text-white mb-10'>
-                <div className='font-blod text-lg'>Latest News</div>
+                <div className='font-blod text-lg'>Gallery</div>
                 <div className='my-4'>
                     <img src={News1} alt='error' className=' max-h-96 w-full object-cover rounded-t-md' />
                     <div className='bg-slate-800 p-2 rounded-b-md opacity-65'>
