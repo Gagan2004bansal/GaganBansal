@@ -7,10 +7,10 @@ const Experience = () => {
                 <div className='sm:flex sm:flex-row sm:w-6/12 sm:items-center sm:justify-center'>
                     <div className='bg-slate-800 p-2 rounded-lg shadow-xl w-fit'>
                         <div>
-                            <p className='font-bold'>ACM CUIET, <span className='text-red-500 font-normal'>Sep 23 - present</span></p>
-                            <p className='text-slate-300'>Web Team</p>
-                            <p className='text-slate-300'> # I contribute to the success of the technical events hosted by ACM CUIET</p>
-                            <p className='text-slate-300'> # Building Website for ACM Club</p>
+                            <p className='font-bold'>ACM CUIET, <span className='text-red-500 font-normal'>Sep 23 - Sep 24</span></p>
+                            <p className='text-slate-300'>Web Developer</p>
+                            <p className='text-slate-300'> :- I contribute to the success of the technical events hosted by ACM CUIET</p>
+                            <p className='text-slate-300'> :- Building Website for ACM Club</p>
                         </div>
                     </div>
                 </div>

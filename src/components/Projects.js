@@ -6,6 +6,24 @@ const Projects = () => {
             <div className='flex flex-col sm:flex-row gap-6 flex-wrap items-center justify-center mt-10 mb-10'>
                 <div className='flex flex-row bg-slate-800 text-slate-300 p-3 gap-2 rounded-md border-4 border-slate-300 shadow-xl'>
                     <div className='flex flex-col justify-center items-center'>
+                        <p className='font-bold'>CDS STL</p>
+                        <a href='https://github.com/Gagan2004bansal/CDS'>Link</a>
+                    </div>
+                    <div>
+                        <img className='w-40 h-40' src='https://media.licdn.com/dms/image/D5612AQEHGZUx2evvxg/article-cover_image-shrink_600_2000/0/1688275415052?e=2147483647&v=beta&t=MiibYoaOd8k3EYKJGp_zBmSoyV_tklwOItiTYILUXKI' alt='error' />
+                    </div>
+                </div>
+                <div className='flex flex-row bg-white text-slate-900 p-3 gap-2 rounded-md border-4 border-slate-300 shadow-xl'>
+                    <div className='flex flex-col justify-center items-center'>
+                        <p className='font-bold'>Intellisync</p>
+                        <a href=' https://intellisync-hack.onrender.com/home'>Demo</a>
+                    </div>
+                    <div>
+                        <img className='w-40 h-40' src='https://miro.medium.com/v2/resize:fit:1400/1*XpbMXFYmvCZN28j5TAjKBQ.png' alt='error' />
+                    </div>
+                </div>
+                <div className='flex flex-row bg-slate-800 text-slate-300 p-3 gap-2 rounded-md border-4 border-slate-300 shadow-xl'>
+                    <div className='flex flex-col justify-center items-center'>
                         <p className='font-bold'>Weather App</p>
                         <a href='https://gagan2004bansal.github.io/WeatherAPP/'>Demo</a>
                     </div>

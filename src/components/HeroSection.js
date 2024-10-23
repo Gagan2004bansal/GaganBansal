@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { SiLeetcode } from "react-icons/si";
-import myImage from '../images/gagan.jpeg';
+import myImage from '../images/main.png';
 
 const HeroSection = () => {
 
@@ -23,17 +23,15 @@ const HeroSection = () => {
         window.location.href = "https://leetcode.com/u/Gagan_Bansal/";
     }
 
-
-
     return (
-        <div className='relative'>
-            <div className='flex flex-col justify-center items-center mt-2'>
+        <div>
+            <div className='flex flex-col justify-center items-center mt-0 md:mt-2 overflow-y-scroll'>
                 <div className='bg-slate-300 p-2 rounded-full'>
                     <img className="rounded-full w-60 h-60 object-cover" src={myImage} alt='loading' />
                 </div>
-                <div className='font-bold text-xl mt-5 text-white md:text-4xl md:pb-3'>Gagan Bansal</div>
-                <div className='font-semibold text-md text-center text-slate-400 md:text-[16px] px-4 py-2'>Pre-final year CS student with 2+ years of coding, adept at problem-solving with data structures and algorithms.</div>
-                <img src='https://razorpay.com/build/browser/static/dots-with-cut.bde9e78f.png' className='absolute left-0 top-10 rotate-180 opacity-0 sm:opacity-100' />
+                <div className='font-bold text-xl mt-5 text-white md:text-4xl md:pb-3 my-2'>Gagan Bansal</div>
+                <div className='font-semibold font-poppins md:text-[20px] text-white my-2'>B.E CS'26 @ Chitkara University</div>
+                <div className='md:w-11/12 my-2 font-semibold text-md text-center text-slate-400 md:text-[16px] px-4 py-2'>I am a Computer Science Engineering student at Chitkara University with a passion for web development and problem-solving. Skilled in C/C++, MERN stack, UI Design, and Data Structures & Algorithms, I thrive in collaborative environments that emphasize hands-on learning. With a forward-thinking mindset, I bring strong communication and solution-oriented skills to every project, along with a dedication to innovation and teamwork.</div>
                 <div className='flex my-3 text-2xl text-white gap-2 cursor-pointer'>
                     <div>
                         <FaGithub onClick={handleGithub} />
@@ -48,9 +46,7 @@ const HeroSection = () => {
                         <SiLeetcode /> Leetcode
                     </div>
                 </div>
-                <div className='font-semibold font-poppins md:text-[20px] text-white'>B.E CS @ Chitkara University</div>
             </div>
-            <img src='https://razorpay.com/build/browser/static/dots-with-cut.bde9e78f.png' className='absolute right-0 opacity-0 sm:opacity-100 z-[-10]' />
         </div>
     )
 }

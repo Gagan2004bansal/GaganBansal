@@ -15,10 +15,12 @@ const Skills = () => {
                         <p className='px-3 py-2 bg-slate-300 rounded-md'>Tailwind CSS</p>
                         <p className='px-3 py-2 bg-slate-300 rounded-md'>Bootstrap</p>
                         <p className='px-3 py-2 bg-slate-300 rounded-md'>React.Js</p>
-                        <p className='px-3 py-2 bg-slate-300 rounded-md'>MongoDB</p>
                         <p className='px-3 py-2 bg-slate-300 rounded-md'>Express.Js</p>
                         <p className='px-3 py-2 bg-slate-300 rounded-md'>Node.js</p>
+                        <p className='px-3 py-2 bg-slate-300 rounded-md'>MongoDB</p>
+                        <p className='px-3 py-2 bg-slate-300 rounded-md'>RESTful APIs</p>
                         <p className='px-3 py-2 bg-slate-300 rounded-md'>SQL</p>
+                        <p className='px-3 py-2 bg-slate-300 rounded-md'>Socket</p>
                     </div>
                 </div>
                 <div className='flex flex-col justify-center m-4'>
@@ -42,6 +44,9 @@ const Skills = () => {
                         <p className='px-3 py-2 bg-slate-300 rounded-md'>DBMS</p>
                         <p className='px-3 py-2 bg-slate-300 rounded-md'>CN</p>
                         <p className='px-3 py-2 bg-slate-300 rounded-md'>OS</p>
+                        <p className='px-3 py-2 bg-slate-300 rounded-md'>OOPs</p>
+                        <p className='px-3 py-2 bg-slate-300 rounded-md'>SDLC</p>
+                        <p className='px-3 py-2 bg-slate-300 rounded-md'>Complexity Analysis</p>
                     </div>
                 </div>
                 <div className='flex flex-col justify-center m-4'>
@@ -70,6 +75,17 @@ const Skills = () => {
                         <p className='px-3 py-2 bg-slate-300 rounded-md'>Cluster Analysis</p>
                     </div>
                 </div>
+                <div className='flex flex-col justify-center m-4'>
+                    <div className='font-bold text-[32px] pb-2 text-white'>
+                        Behavioral Skills
+                    </div>
+                    <div className='font-semibold flex text-slate-900 gap-3 flex-wrap'>
+                        <p className='px-3 py-2 bg-slate-300 rounded-md'>Leadership</p>
+                        <p className='px-3 py-2 bg-slate-300 rounded-md'>Conflict Resolution</p>
+                        <p className='px-3 py-2 bg-slate-300 rounded-md'>Cross-Functional Collaboration</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
